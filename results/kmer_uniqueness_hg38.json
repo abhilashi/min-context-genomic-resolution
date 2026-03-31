@@ -1,0 +1,114 @@
+{
+  "genome_file": "data/hg38_main.fa",
+  "total_bases": 3088286401,
+  "non_n_bases": 2937655681,
+  "k_results": {
+    "11": {
+      "k": 11,
+      "unique_kmers": 197,
+      "distinct_kmers": 2076668,
+      "total_positions": 2443914481,
+      "pct_unique": 8e-06,
+      "elapsed_seconds": 3.5
+    },
+    "13": {
+      "k": 13,
+      "unique_kmers": 1324030,
+      "distinct_kmers": 32368835,
+      "total_positions": 2702234590,
+      "pct_unique": 0.048998,
+      "elapsed_seconds": 5.3
+    },
+    "15": {
+      "k": 15,
+      "unique_kmers": 85667028,
+      "distinct_kmers": 333990307,
+      "total_positions": 2756537465,
+      "pct_unique": 3.107777,
+      "elapsed_seconds": 16.6
+    },
+    "17": {
+      "k": 17,
+      "unique_kmers": 936086991,
+      "distinct_kmers": 1392202889,
+      "total_positions": 2794397290,
+      "pct_unique": 33.498708,
+      "elapsed_seconds": 22.0
+    },
+    "20": {
+      "k": 20,
+      "unique_kmers": 2052991379,
+      "distinct_kmers": 2189051403,
+      "total_positions": 2838238779,
+      "pct_unique": 72.333286,
+      "elapsed_seconds": 24.5
+    },
+    "24": {
+      "k": 24,
+      "unique_kmers": 2266886339,
+      "distinct_kmers": 2356806333,
+      "total_positions": 2877812905,
+      "pct_unique": 78.771151,
+      "elapsed_seconds": 24.9
+    },
+    "28": {
+      "k": 28,
+      "unique_kmers": 2363451740,
+      "distinct_kmers": 2445797417,
+      "total_positions": 2902857049,
+      "pct_unique": 81.418124,
+      "elapsed_seconds": 26.7
+    },
+    "32": {
+      "k": 32,
+      "unique_kmers": 2437332752,
+      "distinct_kmers": 2514433537,
+      "total_positions": 2918642250,
+      "pct_unique": 83.50913,
+      "elapsed_seconds": 25.1
+    },
+    "40": {
+      "k": 40,
+      "unique_kmers": 2547132907,
+      "distinct_kmers": 2615555539,
+      "total_positions": 2933668528,
+      "pct_unique": 86.824155,
+      "elapsed_seconds": 32.7
+    },
+    "50": {
+      "k": 50,
+      "unique_kmers": 2638156815,
+      "distinct_kmers": 2697532531,
+      "total_positions": 2937290401,
+      "pct_unique": 89.816002,
+      "elapsed_seconds": 55.7
+    },
+    "75": {
+      "k": 75,
+      "unique_kmers": 2743503533,
+      "distinct_kmers": 2788198539,
+      "total_positions": 2937588617,
+      "pct_unique": 93.393048,
+      "elapsed_seconds": 88.4
+    },
+    "100": {
+      "k": 100,
+      "unique_kmers": 2780227757,
+      "distinct_kmers": 2819184604,
+      "total_positions": 2937566706,
+      "pct_unique": 94.643902,
+      "elapsed_seconds": 165.6
+    }
+  },
+  "thresholds": {
+    "50.0": 20,
+    "75.0": 24,
+    "90.0": 75,
+    "95.0": ">250",
+    "99.0": ">250",
+    "99.9": ">250",
+    "99.99": ">250",
+    "100.0": ">250"
+  },
+  "analysis_date": "2026-03-12 16:24:47"
+}

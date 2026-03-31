@@ -1,0 +1,156 @@
+{
+  "genome": "GRCh38/hg38 (chr1-22, X, Y, M)",
+  "total_bases": 3088286401,
+  "non_n_bases": 2937655681,
+  "measured_data": {
+    "11": {
+      "k": 11,
+      "unique_kmers": 197,
+      "distinct_kmers": 2076668,
+      "total_kmers": 2443914481,
+      "pct_unique": 8e-06,
+      "source": "measured"
+    },
+    "13": {
+      "k": 13,
+      "unique_kmers": 1324030,
+      "distinct_kmers": 32368835,
+      "total_kmers": 2702234590,
+      "pct_unique": 0.048998,
+      "source": "measured"
+    },
+    "15": {
+      "k": 15,
+      "unique_kmers": 85667028,
+      "distinct_kmers": 333990307,
+      "total_kmers": 2756537465,
+      "pct_unique": 3.107777,
+      "source": "measured"
+    },
+    "17": {
+      "k": 17,
+      "unique_kmers": 936086991,
+      "distinct_kmers": 1392202889,
+      "total_kmers": 2794397290,
+      "pct_unique": 33.498708,
+      "source": "measured"
+    },
+    "20": {
+      "k": 20,
+      "unique_kmers": 2052991379,
+      "distinct_kmers": 2189051403,
+      "total_kmers": 2838238779,
+      "pct_unique": 72.333286,
+      "source": "measured"
+    },
+    "24": {
+      "k": 24,
+      "unique_kmers": 2266886339,
+      "distinct_kmers": 2356806333,
+      "total_kmers": 2877812905,
+      "pct_unique": 78.771151,
+      "source": "measured"
+    },
+    "28": {
+      "k": 28,
+      "unique_kmers": 2363451740,
+      "distinct_kmers": 2445797417,
+      "total_kmers": 2902857049,
+      "pct_unique": 81.418124,
+      "source": "measured"
+    },
+    "32": {
+      "k": 32,
+      "unique_kmers": 2437332752,
+      "distinct_kmers": 2514433537,
+      "total_kmers": 2918642250,
+      "pct_unique": 83.50913,
+      "source": "measured"
+    },
+    "40": {
+      "k": 40,
+      "unique_kmers": 2547132907,
+      "distinct_kmers": 2615555539,
+      "total_kmers": 2933668528,
+      "pct_unique": 86.824155,
+      "source": "measured"
+    },
+    "50": {
+      "k": 50,
+      "unique_kmers": 2638156815,
+      "distinct_kmers": 2697532531,
+      "total_kmers": 2937290401,
+      "pct_unique": 89.816002,
+      "source": "measured"
+    },
+    "75": {
+      "k": 75,
+      "unique_kmers": 2743503533,
+      "distinct_kmers": 2788198539,
+      "total_kmers": 2937588617,
+      "pct_unique": 93.393048,
+      "source": "measured"
+    },
+    "100": {
+      "k": 100,
+      "unique_kmers": 2780227757,
+      "distinct_kmers": 2819184604,
+      "total_kmers": 2937566706,
+      "pct_unique": 94.643902,
+      "source": "measured"
+    },
+    "150": {
+      "k": 150,
+      "unique_kmers": 2821295870,
+      "distinct_kmers": 2846927413,
+      "total_kmers": 2937523165,
+      "pct_unique": 96.043357,
+      "source": "estimated"
+    },
+    "200": {
+      "k": 200,
+      "unique_kmers": 2841310995,
+      "distinct_kmers": 2861548499,
+      "total_kmers": 2937479985,
+      "pct_unique": 96.72614,
+      "source": "estimated"
+    },
+    "250": {
+      "k": 250,
+      "unique_kmers": 2854173609,
+      "distinct_kmers": 2871010755,
+      "total_kmers": 2937437184,
+      "pct_unique": 97.165435,
+      "source": "estimated"
+    }
+  },
+  "power_law_fits": {
+    "overall": {
+      "A": 9.566921373489306,
+      "b": -1.106514638183445,
+      "R2": 0.9161206012162262,
+      "formula": "non_unique_frac = 9.5669 * k^(-1.1065)"
+    },
+    "large_k": {
+      "A": 1.9938061162104577,
+      "b": -0.7772820470616025,
+      "R2": 0.9906895970051838,
+      "formula": "non_unique_frac = 1.9938 * k^(-0.7773)"
+    }
+  },
+  "thresholds": {
+    "99%": {
+      "large_k_estimate": 909,
+      "overall_estimate": 494
+    },
+    "99.9%": {
+      "large_k_estimate": 17586,
+      "overall_estimate": 3959
+    },
+    "99.99%": {
+      "large_k_estimate": 340165,
+      "overall_estimate": 31719
+    },
+    "100%": ">100,000 bp (effectively unreachable)"
+  }
+}

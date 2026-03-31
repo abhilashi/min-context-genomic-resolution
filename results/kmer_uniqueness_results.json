@@ -1,0 +1,155 @@
+{
+  "genome_length": 50818568,
+  "non_n_bases": 39159777,
+  "k_values": {
+    "11": {
+      "k": 11,
+      "unique_positions": 551615,
+      "valid_positions": 39159297,
+      "total_positions": 50818558,
+      "pct_unique_of_valid": 1.4086,
+      "pct_unique_of_total": 1.0855,
+      "elapsed_seconds": 4.27
+    },
+    "12": {
+      "k": 12,
+      "unique_positions": 3386144,
+      "valid_positions": 39159249,
+      "total_positions": 50818557,
+      "pct_unique_of_valid": 8.6471,
+      "pct_unique_of_total": 6.6632,
+      "elapsed_seconds": 3.98
+    },
+    "13": {
+      "k": 13,
+      "unique_positions": 11310527,
+      "valid_positions": 39159201,
+      "total_positions": 50818556,
+      "pct_unique_of_valid": 28.8834,
+      "pct_unique_of_total": 22.2567,
+      "elapsed_seconds": 3.97
+    },
+    "14": {
+      "k": 14,
+      "unique_positions": 19850569,
+      "valid_positions": 39159153,
+      "total_positions": 50818555,
+      "pct_unique_of_valid": 50.692,
+      "pct_unique_of_total": 39.0617,
+      "elapsed_seconds": 4.2
+    },
+    "15": {
+      "k": 15,
+      "unique_positions": 24876011,
+      "valid_positions": 39159105,
+      "total_positions": 50818554,
+      "pct_unique_of_valid": 63.5255,
+      "pct_unique_of_total": 48.9506,
+      "elapsed_seconds": 4.11
+    },
+    "16": {
+      "k": 16,
+      "unique_positions": 27198039,
+      "valid_positions": 39159057,
+      "total_positions": 50818553,
+      "pct_unique_of_valid": 69.4553,
+      "pct_unique_of_total": 53.5199,
+      "elapsed_seconds": 4.14
+    },
+    "17": {
+      "k": 17,
+      "unique_positions": 28301299,
+      "valid_positions": 39159009,
+      "total_positions": 50818552,
+      "pct_unique_of_valid": 72.2728,
+      "pct_unique_of_total": 55.6909,
+      "elapsed_seconds": 4.03
+    },
+    "18": {
+      "k": 18,
+      "unique_positions": 28948459,
+      "valid_positions": 39158961,
+      "total_positions": 50818551,
+      "pct_unique_of_valid": 73.9255,
+      "pct_unique_of_total": 56.9644,
+      "elapsed_seconds": 4.14
+    },
+    "19": {
+      "k": 19,
+      "unique_positions": 29426006,
+      "valid_positions": 39158913,
+      "total_positions": 50818550,
+      "pct_unique_of_valid": 75.1451,
+      "pct_unique_of_total": 57.9041,
+      "elapsed_seconds": 4.03
+    },
+    "20": {
+      "k": 20,
+      "unique_positions": 29830707,
+      "valid_positions": 39158865,
+      "total_positions": 50818549,
+      "pct_unique_of_valid": 76.1787,
+      "pct_unique_of_total": 58.7004,
+      "elapsed_seconds": 4.08
+    },
+    "22": {
+      "k": 22,
+      "unique_positions": 30539777,
+      "valid_positions": 39158769,
+      "total_positions": 50818547,
+      "pct_unique_of_valid": 77.9896,
+      "pct_unique_of_total": 60.0957,
+      "elapsed_seconds": 4.07
+    },
+    "24": {
+      "k": 24,
+      "unique_positions": 31169550,
+      "valid_positions": 39158673,
+      "total_positions": 50818545,
+      "pct_unique_of_valid": 79.5981,
+      "pct_unique_of_total": 61.335,
+      "elapsed_seconds": 4.06
+    },
+    "26": {
+      "k": 26,
+      "unique_positions": 31739433,
+      "valid_positions": 39158577,
+      "total_positions": 50818543,
+      "pct_unique_of_valid": 81.0536,
+      "pct_unique_of_total": 62.4564,
+      "elapsed_seconds": 4.36
+    },
+    "28": {
+      "k": 28,
+      "unique_positions": 32254530,
+      "valid_positions": 39158481,
+      "total_positions": 50818541,
+      "pct_unique_of_valid": 82.3692,
+      "pct_unique_of_total": 63.47,
+      "elapsed_seconds": 4.42
+    },
+    "30": {
+      "k": 30,
+      "unique_positions": 32722679,
+      "valid_positions": 39158385,
+      "total_positions": 50818539,
+      "pct_unique_of_valid": 83.5649,
+      "pct_unique_of_total": 64.3912,
+      "elapsed_seconds": 4.69
+    },
+    "32": {
+      "k": 32,
+      "unique_positions": 33148529,
+      "valid_positions": 39158289,
+      "total_positions": 50818537,
+      "pct_unique_of_valid": 84.6526,
+      "pct_unique_of_total": 65.2292,
+      "elapsed_seconds": 4.84
+    }
+  },
+  "thresholds": {
+    "99.0": ">32",
+    "99.9": ">32",
+    "100.0": ">32"
+  }
+}
